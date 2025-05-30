@@ -40,6 +40,9 @@ document.querySelector('.again').addEventListener('click', function () {
 
   // reset the message
   document.querySelector('.message').textContent = 'start guessing... ';
+
+  // hide the seacret numeber
+  document.querySelector('.number').textContent = '?';
 });
 
 document.querySelector('.check').addEventListener('click', function () {
